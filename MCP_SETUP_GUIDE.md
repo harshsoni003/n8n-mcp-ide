@@ -85,7 +85,7 @@ Create the config file at the path your IDE expects (see IDE-specific paths belo
 ```
 
 Replace:
-- `https://YOUR-N8N-INSTANCE-URL` → your actual n8n URL (e.g. `https://n8n-dev1.customaistudio.io`)
+- `https://YOUR-N8N-INSTANCE-URL` → your actual n8n URL (e.g. `https://n8n-xxx.customaistudio.io`)
 - `YOUR_N8N_API_KEY_HERE` → the API key from Step 1
 
 ---
@@ -210,7 +210,7 @@ You can connect multiple n8n instances by adding more server entries:
         "MCP_MODE": "stdio",
         "LOG_LEVEL": "error",
         "DISABLE_CONSOLE_OUTPUT": "true",
-        "N8N_API_URL": "https://n8n-dev1.customaistudio.io",
+        "N8N_API_URL": "https://n8n-xxx.customaistudio.io",
         "N8N_API_KEY": "YOUR_DEV_API_KEY"
       }
     },
@@ -221,7 +221,7 @@ You can connect multiple n8n instances by adding more server entries:
         "MCP_MODE": "stdio",
         "LOG_LEVEL": "error",
         "DISABLE_CONSOLE_OUTPUT": "true",
-        "N8N_API_URL": "https://n8n-prod.customaistudio.io",
+        "N8N_API_URL": "https://n8n-xxx.customaistudio.io",
         "N8N_API_KEY": "YOUR_PROD_API_KEY"
       }
     }
@@ -264,3 +264,4 @@ You can connect multiple n8n instances by adding more server entries:
 | Date | Change | Author |
 |---|---|---|
 | 2026-03-01 | Initial guide created | Antigravity |
+
