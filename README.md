@@ -85,7 +85,7 @@ Create the config file at the path your IDE expects (see IDE-specific paths belo
 ```
 
 Replace:
-- `https://YOUR-N8N-INSTANCE-URL` → your actual n8n URL (e.g. `https://n8n-dev1.customaistudio.io`)
+- `https://YOUR-N8N-INSTANCE-URL` → your actual n8n URL (e.g. `https://n8n-xxx.customaixxxxx.io`)
 - `YOUR_N8N_API_KEY_HERE` → the API key from Step 1
 
 ---
