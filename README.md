@@ -135,16 +135,6 @@ The agent automatically reads `.agents/workflows/*.md` and applies all rules.
 
 ---
 
-## 🤖 Workflows Built With These Rules
-
-| Workflow | Type | Description |
-|---|---|---|
-| `DEV - Harsh - WhatsApp - AI Echo Bot` | WhatsApp Bot | Receives messages → GPT-4o-mini → replies |
-| `DEV - Harsh - Slack - AI Reply Bot` | Slack Bot | @mentions → GPT-4o-mini → thread reply |
-| `DEV - Harsh - Error Workflow` | Error Handler | Centralized error logging for all workflows |
-
----
-
 ## 🔒 Security
 
 - API keys are **never stored in this repo**
@@ -169,3 +159,4 @@ The agent automatically reads `.agents/workflows/*.md` and applies all rules.
 Made by **[Harsh Soni](https://github.com/harshsoni003)** · Powered by [n8n](https://n8n.io) + [MCP](https://modelcontextprotocol.io)
 
 </div>
+
